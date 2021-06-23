@@ -6,7 +6,7 @@
 
 Different Machine learning algorithms for the UCI-letter recognition dataset. 
 
-Performance comparison using Feature Extrection through Autoencoder, 1-layer neural network, PCA algorithms.
+Performance comparison using Feature Extraction through Autoencoder, two-layer neural network, PCA algorithms.
 
 ### Built With
 
@@ -30,7 +30,7 @@ Letter recognition dataset
 
 ### Installation
 
-1. Get a dataset from [here]((https://archive.ics.uci.edu/ml/datasets/Letter+Recognition)
+1. Get a dataset from [here](https://archive.ics.uci.edu/ml/datasets/Letter+Recognition)
 2. Clone the repo
    ```sh
    git clone https://github.com/parthvalani/Letter-recognition-using-machine-learning.git
@@ -44,10 +44,10 @@ Letter recognition dataset
 <!-- USAGE EXAMPLES -->
 ## Methodology
 
-* load the dataset using pandas
-* data scaling and one-hot encoding
-* split the data in training(16000) and testing(4000) set.
-* Extract features from
+* Load the dataset using pandas
+* Data scaling and one-hot encoding
+* Split the data in training(16000) and testing(4000) set.
+* Extract features from following files.
   1. ANN.ipynb (2-layer neural network with 20% dropout)
   2. PCA.ipynb (principal component analysis with reduced 10 attributes)
   3. AutoEncoder.ipynb (Same input and output layer with only input data)
@@ -76,5 +76,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Parth Valani - [@parth_valani](https://www.linkedin.com/in/parthvalani/) - parthnvalani@gmail.com
 
-Project Link: [https://github.com/parthvalani/Tweet-review-analysis](https://github.com/parthvalani/Tweet-review-analysis/)
+Project Link: [https://github.com/parthvalani/Letter-recognition-using-machine-learning](https://github.com/parthvalani/Letter-recognition-using-machine-learning)
 
